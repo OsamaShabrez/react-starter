@@ -1,14 +1,13 @@
-import React from 'react';
-import { render } from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
+// include bootstrap 4 js files
+import 'bootstrap';
+
+// include bootstrap 4 cc files
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.scss';
 
-const App = () => {
-  return (
-    <div>
-      <h3>Our Application Is Alive</h3>
-    </div>
-  );
-}
+import Main from "./components/Main";
 
-render(<App />, document.getElementById('app'));
+ReactDOM.render( <Main/> , document.getElementById('app'));

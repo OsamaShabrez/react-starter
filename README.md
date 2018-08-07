@@ -17,6 +17,7 @@ This is a `react starter kit` without a server, router or a redux store with bar
 
 ##### Things Added To This Starter Kit
 - [x] Webpack 4 added
+- [x] Bootstrap 4 with jQuery, Popper.js
 - [x] webpack development, production environment setup, ability to add as many environments as you want by simply chaning the ```--env.NODE_ENV``` in the `script` in `package.json`
 - [x] scss support
 - [x] @babel/env, @babel/preset-react, @babel/preset-stage-2 (version 7.0.0-beta.56)
