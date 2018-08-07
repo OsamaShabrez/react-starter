@@ -1,6 +1,6 @@
 # React Started Kit
 
-This is a `react starter kit`, which uses the bare minimum `webpack` configuration, only what's needed nothing else. An excellent started to build your application on and incrementally add more features to your `webpack` configuration(s).
+This is a `react starter kit` without a server, router or a redux store with bare minimum `webpack` configurations - only what's needed nothing else. An excellent starter to build your application on and incrementally add more features to your `webpack` configuration(s).
 
 ***
 
@@ -16,12 +16,12 @@ This is a `react starter kit`, which uses the bare minimum `webpack` configurati
 ***
 
 ##### Things Added To This Starter Kit
-- [x] dev-server configured with hot module reloading
 - [x] Webpack 4 added
 - [x] webpack development, production environment setup, ability to add as many environments as you want by simply chaning the ```--env.NODE_ENV``` in the `script` in `package.json`
 - [x] scss support
-- [x] @babel/env, @babel/preset-react, @babel/preset-stage-2 (version 7.0.0-beta.46)
+- [x] @babel/env, @babel/preset-react, @babel/preset-stage-2 (version 7.0.0-beta.56)
 - [x] Webpack merge added to manage configurations in a very smart way.
-- [ ] react-router-4 
-- [x] NodeJS backend up & running with ExpressJS framework.
 
+##### Important Notes / Dependency Bugs
+- node-sass vulnerabilities does not effect production and will be fixed in v5
+- webpack 4 console warning: `entrypoint undefined =` https://github.com/jantimon/html-webpack-plugin/issues/895
