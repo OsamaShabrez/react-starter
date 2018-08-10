@@ -28,8 +28,10 @@ This is a `react starter kit` without a server, router or a redux store with bar
 ##### Important Notes / Dependency Bugs
 - webpack 4 console warning: `entrypoint undefined =` https://github.com/jantimon/html-webpack-plugin/issues/895
 
+##### Broken
+- [ ] Independent CSS file
 
 ##### Thing to do
-- [] Clean directory after recompile
-- [] Remove unused CSS
-- [] Tree shaking
+- [ ] Clean directory after recompile
+- [ ] Remove unused CSS
+- [ ] Tree shaking
