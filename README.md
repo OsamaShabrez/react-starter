@@ -18,11 +18,18 @@ This is a `react starter kit` without a server, router or a redux store with bar
 ##### Things Added To This Starter Kit
 - [x] Webpack 4 added
 - [x] Bootstrap 4 with jQuery, Popper.js
-- [x] webpack development, production environment setup, ability to add as many environments as you want by simply chaning the ```--env.NODE_ENV``` in the `script` in `package.json`
+- [x] Transform imports plugin to only import used functions
+- [x] Webpack development, production environment setup, ability to add as many environments as you want by simply chaning the ```--env.NODE_ENV``` in the `script` in `package.json`
 - [x] scss support
 - [x] @babel/env, @babel/preset-react, @babel/preset-stage-2 (version 7.0.0-beta.56)
 - [x] Webpack merge added to manage configurations in a very smart way.
+- [x] splitChunks, NoEmitOnErrorsPlugin,
 
 ##### Important Notes / Dependency Bugs
-- node-sass vulnerabilities does not effect production and will be fixed in v5
 - webpack 4 console warning: `entrypoint undefined =` https://github.com/jantimon/html-webpack-plugin/issues/895
+
+
+##### Thing to do
+- [] Clean directory after recompile
+- [] Remove unused CSS
+- [] Tree shaking

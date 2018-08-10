@@ -5,8 +5,8 @@ import ReactDOM from "react-dom";
 import 'bootstrap';
 
 // include bootstrap 4 cc files
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.scss';
+import 'bootstrap/scss/bootstrap.scss';
 
 import Main from "./components/Main";
 
